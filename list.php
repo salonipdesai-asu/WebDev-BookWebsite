@@ -6,19 +6,20 @@ type="text/css">
 
 <body>
 
-<ul id="menu" align =left><br>
-  <li><a class="list" href ="session.php">HOME</a></li><br>
-  <li><a class="list" href="allH.php">ALL</a></li><br>
-  <li><a class="list" href="fictionH.php">FICTION</a></li><br>
-  <li><a class="list" href="nonfictionH.php">NON-FICTION</a></li><br>
-  <li><a class="list" href="romanceH.php">ROMANCE</a></li><br>
-  <li><a class="list" href="mysteryH.php">MYSTERY</a></li><br>
-  <li><a class="list" href="selfhelpH.php">SELF HELP</a></li><br>
-  <li><a class="list" href="dramaH.php">DRAMA</a></li><br>
-  <li><a class="list" href="comicsH.php">COMICS</a></li><br>
-  <li><a class="list" href="classicsH.php">CLASSICS</a></li><br>
-  <li><a class="list" href="fantasyH.php">FANTASY</a></li><br>
-  <li><a class="list" href="referenceH.php">REFERENCE</a></li><br>
+<ul id="menu" align =left  ><br>
+  <li><a href ="all.html">ALL</a></li><br>
+  <li><a href="generalfiction.html">GENERAL FICTION</a></li><br>
+  <li><a href="fanfiction.html">FAN FICTION</a></li><br>
+  <li><a href="sciencefiction.html">SCIENCE FICTION</a></li><br>
+  <li><a href="nonfiction.html">NON FICTION</a></li><br>
+  <li><a href="romance.html">ROMANCE</a></li><br>
+  <li><a href="chicklit.html">CHICK LIT</a></li><br>
+  <li><a href="classics.html">CLASSICS</a></li><br>
+  <li><a href="mystery.html">MYSTERY</a></li><br>
+  <li><a href="horror.html">HORROR</a></li><br>
+  <li><a href="drama.html">DRAMA</a></li><br>
+  <li><a href="satire.html">SATIRE</a></li><br>
+  <li><a href="action.html">ACTION AND ADVENTURE</a></li><br>
 </ul>
 
 </body>

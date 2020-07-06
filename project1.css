@@ -1,0 +1,78 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #66ffff;
+    overflow: hidden;
+}
+canvas{
+    background-color: #000;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+@font-face {
+   font-family: precious;
+   src: url(Precious.ttf);
+}
+
+p {
+	font-family: Precious;
+	color: #d4af37;
+	text-align: center
+}
+.welcome {
+    position: relative;
+    bottom: 90px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+	font-size: 55pt;
+}
+p.welcome1 {
+    position: relative;
+    bottom: 185px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+	font-size: 19pt;
+}
+.container {
+	position: relative;
+    bottom:99%;
+	width: 550px;
+	height: 720px;
+	margin: auto;
+}
+
+.image {
+  opacity: 0.25;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 550px;
+  height: 720px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 1;
+}
+.container:hover .middle {
+  opacity: 0.9;
+}
+
